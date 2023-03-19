@@ -1,0 +1,726 @@
+*{
+    font-family: Golos Text;
+    font-size: 15px;
+}
+.navbar-brand img{
+    width: 70px;
+}
+.navbar-toggler{
+    margin: 0px !important;
+    border: none;
+}
+.main_cont{
+    height: 98vh; background: rgb(255, 255, 255);
+    background: #2C3E50;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4CA1AF, #2C3E50);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4CA1AF, #2C3E50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.nav_hove ul li a:hover{
+    color: rgb(185, 200, 205) !important;
+}
+.nav_hove{
+    justify-content: space-between;
+}
+.nav-btn .btn1{
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+}
+.nav-btn button:hover{
+    color: rgb(185, 200, 205) !important;
+    background-color: transparent;
+}
+.nav-btn .btn2{
+    font-weight: 500;
+}
+
+.items{
+    color: white;
+    margin-top: 10% !important;
+
+}
+.items div{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+.items div img{
+    width: 20%;
+}
+.items h1{
+    text-align: center;
+    font-size: 44px;
+}
+.items p{
+    text-align: center;
+    font-size: 24px;
+}
+.lab1{
+    width: 76%;
+    background-color: white;
+    padding: 12px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 4px;
+}
+.lab1 li{
+    list-style-type: none;
+}
+.lab1 .inpu{
+    border: none;
+    width: 80%;
+}
+.lab1 .inpu:focus{
+    outline: none;
+}
+
+
+.search_span{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.search_span span {
+    background-color: rgba(197, 197, 197, 0.3);
+    color: white;
+    padding: 2px 8px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.search_span span i{
+    font-size: 10px;
+}
+.search_span span i a{
+    font-size: 10px !important;
+    font-family: Poppins;
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.circle {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    overflow: scroll;
+}
+.circle::-webkit-scrollbar{
+    display: none;
+}
+.circle p{
+    text-align: center;
+    margin-top: 8px;
+    font-weight: 500;
+    color: rgb(227, 227, 227);
+}
+
+.circle1{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 3px solid white;
+}
+.circle1 img{
+    width: 100%;
+    height: 100%;
+    transition: all 0.2s ease-out;
+    filter: brightness(70%);
+}
+.circle1 img:hover{
+    transform: scale(1.04);
+    filter: brightness(100%);
+}
+
+
+.ban_down{
+    background-color: #c7ebff;
+    padding: 10px;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.ban_down p{
+    margin: 0px !important;
+    font-weight: 500;
+}
+
+.text h2{
+    font-size: 34px !important;
+    font-family: Poppins;
+    font-weight: 600;
+}
+.text .text-primary{
+    font-size: 34px !important;
+    font-weight: 600;
+    font-family: Poppins;
+}
+
+.text p{
+    font-size: 18px;
+    font-family: Montserrat;
+}
+
+
+
+.multi{
+    display: flex;
+    /* gap: 10px; */
+    flex-wrap: wrap;
+}
+.multi .box1{
+    width: 50%;
+    padding: 10px;
+}
+.multi .box2{
+    width: 49%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 6px;
+    padding: 10px;
+}
+.multi .box1 img{
+    width: 100%;
+    filter: brightness(96%);
+}
+.multi .box1 img:hover{
+    filter: brightness(80%);
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+.multi .box2 .img1{
+    width: 49%;
+    transition: all 0.2s ease-in-out;
+    filter: brightness(96%);
+}
+.multi .box2 .img1 img:hover{
+    filter: brightness(80%);
+    cursor: pointer;
+}
+.multi .box2 .img1 img{
+    width: 100%;
+}
+.box3{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    /* padding: 10px; */
+    gap: 1%;
+}
+.box3 .img2{
+    width: 24%;
+}
+.box3 .img2 img{
+    filter: brightness(96%);
+    transition: all 0.2s ease-in-out;
+    width: 100%;
+}
+.multi .img2 img:hover{
+    filter: brightness(80%);
+    cursor: pointer;
+}
+
+.scro{
+    overflow: scroll;
+    gap: 15px;
+}
+
+.scro .box_image {
+    width: 210px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.scro .box_image img{
+    filter: brightness(96%);
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+.scro .box_image img:hover{
+    filter: brightness(60%);
+}
+.scro .box_image img {
+    width: 100%;
+}
+
+.saint{
+    display: flex;
+    justify-content: start;
+    overflow: scroll;
+}
+.saint::-webkit-scrollbar{
+    display: none;
+}
+.saint div{
+    gap: 20px;
+    cursor: pointer;
+}
+.shad{
+    width: 300px !important; 
+    height: 350px;
+    overflow: hidden;
+    border-radius: 30px;
+}
+.shad img{
+    width: 100%;
+    height: 350px;
+    filter: brightness(96%);
+    transition: all 0.2s ease-in-out;
+}
+.shad img:hover{
+    filter: brightness(60%);
+}
+.shado{
+    width: 300px !important;
+    height: 350px;
+    border-radius: 30px;
+    border: 2px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+}
+
+.twoc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.high{
+    width: 50%;
+}
+.high .hh1{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+.high .hh1 .ho i{
+    display: flex;
+    font-size: 20px;
+    color: blue;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(201, 241, 255);
+    border-radius: 10px;
+}
+.high .hh1 .hq h2{
+    font-size: 20px;
+    font-family: Poppins;
+}
+.high .hh1 .hq p{
+    font-size: 14px;
+    color: rgb(64, 64, 64);
+    font-family: Poppins;
+}
+.high1{
+    width: 50%;
+}
+.high1 img{
+    width: 100%;
+}
+
+.grain{
+    background-color: rgb(0, 0, 57);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.grain .gran1{
+    width: 66%;
+    padding: 40px;
+}
+.gran1 h3{
+    font-size: 20px;
+    color: white;
+}
+.gran1 h1{
+    font-size: 28px;
+    color: white;
+}
+.gran1 .free{
+    font-size: 20px;
+    color: rgb(255, 238, 0);
+}
+
+.gran1 .free1{
+    font-size: 28px;
+    color: rgb(255, 238, 0);
+}
+.grain button{
+    background-color: rgba(181, 181, 181, 0.523);
+    border: none;
+    color: white;
+    padding: 8px 14px;
+    border-radius: 10px;
+}
+.gran2 {
+    width: 34%;
+}
+.gran2 img{
+    width: 100%;
+}
+.ban1{
+    background-color: #c7ebff;
+    width: 95% !important;
+    margin: auto;
+    display: flex;
+    padding: 50px 70px;
+    border-radius: 8px;
+}
+.f2 img{
+    width: 70%;
+}
+.f2{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 50%;
+}
+.f1{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+}
+.f1 h1{
+    font-size: 30px;
+    font-family: Poppins;
+}
+.f1 h1 span{
+    font-size: 30px;
+    font-family: Poppins;
+}
+.f1 p{
+    font-size: 15px;
+    font-weight: 500;
+    font-family: Montserrat;
+    margin-top: 15px;
+}
+.f1 button{
+    width: 160px;
+    border-radius: 4px !important;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+footer{
+    background-color: #1d262d;
+    padding: 40px 10px;
+}
+
+.footertop{
+    display: flex;
+    flex-wrap: wrap !important;
+    justify-content: space-between;
+}
+.footertop .fot1 h4{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 15px !important;
+    margin-bottom: 15px !important;
+    font-family: Poppins;
+}
+.footertop .fot1 a{
+    list-style-type: none;
+    color: #869fb2;
+    margin: 3px 0px;
+    cursor: pointer;
+    font-size: 13px;
+    display: block;
+    transition: all 0.2s ease-in-out;
+}
+.footertop .fot1 a:hover{
+    color: #fff;
+}
+.footertop .fot1 i{
+    font-size: 23px;
+    cursor: pointer;
+    margin-right: 4px;
+}
+
+.footertop .fot1 p{
+    color: #869fb2;
+    font-family: Poppins;
+    margin: 18px 6px 18px 0px;
+}
+
+.footertop .fot1 .fa-facebook{
+    color: rgb(57, 57, 255);
+}
+.footertop .fot1 .fa-twitter{
+    color: rgb(21, 192, 204);
+}
+.footertop .fot1 .fa-pinterest{
+    color: rgb(235, 4, 4);
+}
+.footertop .fot1 .fa-instagram{
+    color: rgb(195, 0, 255);
+}
+.footertop .fot1 .fa-youtube{
+    color: rgb(235, 7, 7);
+}
+
+
+.footbot{
+    margin-top: 20px;
+    border-top: 1px solid rgb(73, 73, 73);
+    padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.footbot .fot2{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.footbot .fot2 p{
+    color: #a1b6c6;
+    font-size: 14px;
+    margin: 0px;
+    display: inline;
+    margin-left: 13px;
+}
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 991px) and (max-width: 1800px){
+    .items div img{
+        display: none;
+    }
+}
+@media only screen and (min-width: 910px) and (max-width: 1800px){
+    .scro{
+        display: none !important;
+    }
+}
+@media only screen and (max-width: 1300px){
+    .circle1{
+        width: 100px;
+        height: 100px;
+    }
+}
+@media only screen and (max-width: 991px){
+    .main_cont{
+        height: 100vh;
+    }
+    .navbar-brand{
+        display: none;
+    }
+    .items .banimg img{
+        width: 200px;
+        height: 50px;
+    }
+    .items .banimg {
+        display: flex;
+        justify-content: center;
+    }
+    .cont{
+        justify-content: space-between !important;
+    }
+.items h1{
+    font-size: 38px;
+}
+.items p{
+    font-size: 18px;
+}
+.lab1 .inpu{
+    width: 78%;
+}
+.text p{
+    font-size: 15px;
+}
+.high1{
+    display: none;
+}
+.high{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.high .hh1{
+    width: 50%;
+    display: flex;
+    margin-top: 10px;
+}
+.f1 h1{
+    font-size: 24px;
+}
+.f1 h1 span{
+    font-size: 24px;
+}
+.f1 p{
+    font-size: 14px;
+}
+.f1 button{
+    width: 140px;
+}
+footer .fot1{
+    width: 50%;
+}
+}
+@media only screen and (max-width: 910px){
+    .main_cont{
+        height: 100vh;
+    }
+    .circle{
+        justify-content: start;
+    }
+    .multi{
+        display: none;
+    }
+    .gran1 h3{
+        font-size: 16px;
+    }
+    .gran1 h1{
+        font-size: 24px;
+    }
+    .gran1 .free{
+        font-size: 16px;
+    }
+    
+    .gran1 .free1{
+        font-size: 24px;
+    }
+    .grain button{
+        font-size: 14px;
+    }
+    .f2{
+        display: none;
+    }
+    .f1{
+        width: 100%;
+    }
+     .fot2 p{
+        margin: 20px 0px !important;
+    }
+}
+
+@media only screen and (max-width: 769px){   
+    .main_cont{
+        height: 90vh;
+    }
+    .items h1{
+    font-size: 34px;
+}
+.items p{
+    font-size: 15px;
+}
+.lab1 .inpu{
+    width: 60%;
+}
+.text h2{
+    font-size: 26px !important;
+}
+.text .text-primary{
+    font-size: 26px !important;
+}
+.high{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.high .hh1{
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+}
+.grain .gran1{
+    width: 100%;
+    padding: 40px;
+}
+.gran1 h3{
+    font-size: 20px;
+}
+.gran1 h1{
+    font-size: 28px;
+}
+.gran1 .free{
+    font-size: 20px;
+}
+.gran1 .free1{
+    font-size: 28px;
+}
+.grain button{
+    font-size: 14px;
+}
+.gran2 {
+    width: 80%;
+    margin: 0px auto;
+}
+.fot2 p{
+    margin: 20px 0px !important;
+}
+}
+
+@media only screen and (max-width: 643px){
+    .main_cont{
+        height: 98vh;
+    }
+    .scro .box_image {
+        width: 160px;
+        border-radius: 15px;
+        overflow: hidden;
+    }
+    .ban1{
+        padding: 30px;
+    }
+}
+@media only screen and (max-width: 462px){
+    .main_cont{
+        height: 93vh;
+    }
+    .items h1{
+        font-size: 28px;
+    }
+    .items p{
+        font-size: 14px;
+    }
+        .lab1 .inpu{
+            width: 50%;
+        }
+        .gran1 h3{
+            font-size: 15px;
+        }
+        .gran1 h1{
+            font-size: 22px;
+        }
+        .gran1 .free{
+            font-size: 15px;
+        }
+        .gran1 .free1{
+            font-size: 22px;
+        }
+        .grain button{
+            font-size: 14px;
+        }
+
+        .footertop .fot1{
+            width: 100%;
+        }
+}
+
+@media only screen and (max-width: 388px){
+    .items h1{
+        font-size: 24px;
+    }
+    .items p{
+        font-size: 12px;
+    }
+    .lab1 .inpu{
+        width: 34%;
+    }
+}
